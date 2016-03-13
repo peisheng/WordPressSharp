@@ -12,6 +12,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPressSharpTest", "..\WordPressSharpTest\WordPressSharpTest.csproj", "{976CEAE0-614C-4564-AB10-5000D139F981}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler", "..\..\..\spider\WebCrawler\WebCrawler.csproj", "{28FF9BD0-E0F3-47F7-8814-06DEBCB71310}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack", "..\..\..\htmlagilitypack-106970\Trunk\HtmlAgilityPack\HtmlAgilityPack.csproj", "{193BB801-054F-4729-9D5D-FCE1E32594BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +30,14 @@ Global
 		{976CEAE0-614C-4564-AB10-5000D139F981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{976CEAE0-614C-4564-AB10-5000D139F981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{976CEAE0-614C-4564-AB10-5000D139F981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28FF9BD0-E0F3-47F7-8814-06DEBCB71310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28FF9BD0-E0F3-47F7-8814-06DEBCB71310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28FF9BD0-E0F3-47F7-8814-06DEBCB71310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28FF9BD0-E0F3-47F7-8814-06DEBCB71310}.Release|Any CPU.Build.0 = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

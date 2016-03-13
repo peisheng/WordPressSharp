@@ -64,7 +64,7 @@ namespace WordPressSharpTest
 
                 Assert.IsFalse(String.IsNullOrEmpty(id));
 
-                client.DeletePost(Convert.ToInt32(id));
+              //  client.DeletePost(Convert.ToInt32(id));
             }
         }
 
