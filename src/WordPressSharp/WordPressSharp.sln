@@ -6,15 +6,16 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPressSharp", "WordPressSharp.csproj", "{7A938355-0B6B-48B7-97FB-C0C09015307B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9DCC7403-CC2A-45B1-82E1-634E7EAEA63B}"
-	ProjectSection(SolutionItems) = preProject
-		..\..\README.md = ..\..\README.md
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordPressSharpTest", "..\WordPressSharpTest\WordPressSharpTest.csproj", "{976CEAE0-614C-4564-AB10-5000D139F981}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCrawler", "..\..\..\spider\WebCrawler\WebCrawler.csproj", "{28FF9BD0-E0F3-47F7-8814-06DEBCB71310}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack", "..\..\..\htmlagilitypack-106970\Trunk\HtmlAgilityPack\HtmlAgilityPack.csproj", "{193BB801-054F-4729-9D5D-FCE1E32594BF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack", "..\..\..\htmlagilitypack\Trunk\HtmlAgilityPack\HtmlAgilityPack.csproj", "{193BB801-054F-4729-9D5D-FCE1E32594BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack.Extensions", "..\..\..\htmlagilitycontrib\src\HtmlAgilityPack.Extensions\HtmlAgilityPack.Extensions.csproj", "{4DD25896-6C08-4AA4-988E-F338BCDA9576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HtmlAgilityPack.Extensions.Tests", "..\..\..\htmlagilitycontrib\src\HtmlAgilityPack.Extensions.Tests\HtmlAgilityPack.Extensions.Tests.csproj", "{0F667F88-7962-4B0E-BCBC-3EEFCEA6B89A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +39,14 @@ Global
 		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{193BB801-054F-4729-9D5D-FCE1E32594BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD25896-6C08-4AA4-988E-F338BCDA9576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD25896-6C08-4AA4-988E-F338BCDA9576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD25896-6C08-4AA4-988E-F338BCDA9576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD25896-6C08-4AA4-988E-F338BCDA9576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F667F88-7962-4B0E-BCBC-3EEFCEA6B89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F667F88-7962-4B0E-BCBC-3EEFCEA6B89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F667F88-7962-4B0E-BCBC-3EEFCEA6B89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F667F88-7962-4B0E-BCBC-3EEFCEA6B89A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
